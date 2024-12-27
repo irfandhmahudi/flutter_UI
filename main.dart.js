@@ -83790,16 +83790,17 @@ break
 case 6:case 1:return A.B(q,r)
 case 2:return A.A(o,r)}})
 return A.C($async$A_,r)},
-mu(){var s=0,r=A.D(t.k8),q,p=2,o,n=this,m,l,k,j,i
+mu(){var s=0,r=A.D(t.k8),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$mu=A.E(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
 return A.G(n.qP(),$async$mu)
-case 7:m=b
-if(m==null){k=A.ce(u.K)
-throw A.d(k)}k=t.z
+case 7:k=b
+m=k==null?"":k
+if(J.e(m,"")){j=A.ce(u.K)
+throw A.d(j)}j=t.z
 s=8
-return A.G(n.a.ano(0,"/me",null,null,null,A.atx("GET",A.aur(A.as(["Authorization","Bearer "+A.j(m)],t.N,k))),null,k),$async$mu)
+return A.G(n.a.ano(0,"/me",null,null,null,A.atx("GET",A.aur(A.as(["Authorization","Bearer "+A.j(m)],t.N,j))),null,j),$async$mu)
 case 8:l=b
 q=l
 s=1
@@ -83808,8 +83809,8 @@ p=2
 s=6
 break
 case 4:p=3
-i=o
-throw i
+h=o
+throw h
 s=6
 break
 case 3:s=2
